@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Indicap Zero</string>
+    <string name="depart">Depart</string>
+    <string name="logo">Indicap</string>
+    <string name="label">Départ</string>
+    <string name="prochain_arret">Prochain arret</string>
+    <string name="descendre">Je descend ici</string>
+</resources>

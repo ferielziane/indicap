@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_arriereplan"
+        android:scaleType="fitXY"/>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="40dp"
+        android:src="@drawable/ic_logo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label"
+        android:fontFamily="sans-serif"
+        android:textSize="40sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="40dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ffffff"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:id="@+id/edittext_depart"
+        android:hint="@string/depart"
+        android:importantForAutofill="no"
+        android:inputType="textAutoComplete"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/roundededit"
+        android:textColor="#000000"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voir"
+        android:id="@+id/monbutton"
+        />
+
+
+</LinearLayout>
+</FrameLayout>

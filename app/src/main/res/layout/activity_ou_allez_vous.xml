@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_arriereplan"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logo"
+            android:fontFamily="sans-serif"
+            android:textSize="40sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="40dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correspondances"
+            android:fontFamily="sans-serif"
+            android:textSize="30sp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffffff"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:background="@drawable/roundbackground_darkblue"
+            >
+
+            <TextView
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/metro"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:text="M"
+                android:textColor="#5A57D9"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="51dp"
+                android:layout_height="54dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/metro"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="13"
+                android:textColor="#5A57D9"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="436dp"
+                android:layout_height="match_parent"
+                android:text="Saint-universite Chatillon Montrouge"
+                android:textSize="20dp"
+                android:padding="10dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/roundbackground_darkblue"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/metro"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="T"
+                android:textColor="#5A57D9"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/metro"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="1"
+                android:textColor="#5A57D9"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="436dp"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:text="Noicy le sec Asniere-Sur-Seine"
+                android:textSize="30dp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sortie"
+            android:fontFamily="sans-serif"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="342dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/roundbackground_darkblue"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="111dp"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="1"
+                    android:textColor="#5A57D9"
+                    android:background="@drawable/sortie_rect_blanc"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="436dp"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:text="Passage du l'aqueduc Hotel de ville"
+                    android:textSize="25dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="111dp"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="1"
+                    android:textColor="#5A57D9"
+                    android:background="@drawable/sortie_rect_blanc"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="436dp"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:text="Place du caquet"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/boutton_accessibilite"
+            android:layout_width="1107dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/roundbutton"
+            android:layout_gravity="center"
+            android:text="Accessibilite et services"
+            android:textSize="40dp"
+            android:clickable="true"
+            android:focusableInTouchMode="true"/>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_arriereplan"
+        android:scaleType="fitXY"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logo"
+        android:fontFamily="sans-serif"
+        android:textSize="40sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="40dp"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accessibilité et services"
+        android:fontFamily="sans-serif"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="40dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textColor="#344E67"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif"
+        android:padding="35dp"
+        android:id="@+id/accessibilite_services"
+        android:background="@drawable/access_services"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:text="-Automates transiliens adaptés PMR \n-Bandes d\'éveil \n-Boucle magnetique \n-Guichet adapté PMR"
+        />
+
+</LinearLayout>
+</FrameLayout>
